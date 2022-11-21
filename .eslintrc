@@ -1,0 +1,46 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "plugin:vue/vue3-recommended",
+    "eslint:recommended",
+    "@vue/typescript/recommended",
+    "@vue/prettier",
+    "@vue/prettier/@typescript-eslint"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2021
+  },
+  "plugins": [],
+  "rules": {
+    "@typescript-eslint/ban-ts-comment": 0,
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "sort-imports": "off",
+    "import/first": "error",
+    "import/no-duplicates": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-unused-vars": "error",
+    "no-useless-return": "error",
+    "no-return-await": "error",
+    "no-else-return": "error",
+    "@typescript-eslint/no-var-requires": 0,
+    "no-async-promise-executor": 0,
+    "import/no-named-as-default": 0,
+    "import/no-named-as-default-member": 0,
+    "@typescript-eslint/explicit-module-boundary-types": 0,
+    "no-unsafe-optional-chaining": 0,
+    "no-console": "error",
+    "no-alert": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
